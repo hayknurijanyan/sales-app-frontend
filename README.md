@@ -1,8 +1,31 @@
-# React + Vite
+# Sales App - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the frontend code for the Sales App project. It provides a user interface to interact with the backend API for product management, sales tracking, and user authentication.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication:** Register and log in to access the app functionalities.
+- **Product Management:** View, add, and manage products.
+- **Sales Tracking:** Monitor sales data, product inventory, and track user transactions.
+
+## Technologies Used
+
+- Vite.js
+- React.js
+- React Router for navigation
+- Axios for HTTP requests
+- CSS
+
+## Setup
+
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Set up environment variables:
+   - Create a `.env` file and copy data from .env.sample file.
+4. Run the development server using `npm run dev`.
+
+## Usage
+
+1. Register a new user or log in to access the app features.
+2. Navigate through different sections (admin, employee dashboards) using the provided UI.
+3. Perform CRUD operations on products or view sales data as required.
