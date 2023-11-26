@@ -1,0 +1,31 @@
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+  flex-direction: column;
+}
+
+.registration-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.registration-form button {
+  background-color: #373737;
+  color: #fff;
+  cursor: pointer;
+}

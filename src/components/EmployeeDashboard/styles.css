@@ -1,0 +1,72 @@
+.employee-dashboard {
+  display: flex;
+}
+
+.left-list,
+.right-list {
+  border: 1px solid #ccc;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bottom-addon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 4px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  user-select: none;
+}
+
+.bottom-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 28px 4px 4px 4px;
+  user-select: none;
+}
+
+.product-item:hover {
+  background-color: #353535;
+}
+
+.right-list .product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-list .product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.total-bar-pricing {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2px 8px;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+}
